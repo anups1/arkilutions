@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'MyFont';
+	src: url('./fonts/square721.eot');
+	src: url('/fonts/square721.woff') format('woff'),
+	     url('/fonts/square721.ttf') format('truetype'),
+	     url('/fonts/square721.svg') format('svg');
+}
+.logo{
+	font-family: MyFont;
+	font-weight: normal;
+	height:auto;
+}
+.back{
+	border-right:5px solid #D2D3D5;
+	background:#D2D3D5;
+}
+.noback{
+	background-color:white;
+	font-family: MyFont;
+}
+.diffln{
+	border-left:5px solid #D2D3D5;
+}
+.menu{
+	font-size:16px;
+	}
+.item{
+    background: #333;    
+    text-align: center;
+    height: auto !important;
+}
+.carousel{
+    margin-top: 20px;
+    width:auto;
+    height:auto;
+    visibility: transparent;
+}
+.bs{
+	margin-top:5%;
+}
+.imgc{
+	width:auto;
+	height:auto;
+}
+.brochure{
+	margin-top: 5%;
+}
+.difficultline{
+	color:#D2D3D5;
+}
+.info{
+	background-color:white;
+	opacity:0.75;
+	font-family:"oswald";
+	}
+.st{
+	width:100%;
+	height:100%;
+	font-family:oswald;
+}
+.info2{
+	background-color:grey;
+	opacity:0.92;
+	font-family:"oswald";
+}
+.blk{
+	margin-top:1%;
+	margin-bottom:1%;
+}
+.info3{
+	background-color:#D2D3D5;
+	opacity:0.90;
+	font-family:"oswald";
+	font-size:14px;
+	bottom:0px;
+	right:0px;
+	left:0px;
+	position:fixed;
+	min-height:50px;
+	height: auto;
+}
+.back2{
+	background-color:white;
+}
+.info4{
+	font-family:"oswald";
+	font-size:64px;
+	height:auto;
+}
